@@ -9,7 +9,7 @@ pipeline {
 		stage("build"){
 			steps {
 				echo 'building application'
-				echo 'change included'
+				echo 'change included in Jenkins file'
 			}
 		}
 		stage("test"){
