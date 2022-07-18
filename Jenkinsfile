@@ -9,6 +9,7 @@ pipeline {
 		stage("build"){
 			steps {
 				echo 'building application'
+				echo 'change included'
 			}
 		}
 		stage("test"){
