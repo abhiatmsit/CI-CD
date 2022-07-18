@@ -3,7 +3,7 @@ def build(){
 }
 
 def test(){
-		echo 'building the application'
+	echo 'building the application'
 }
 
 def deploy(){
